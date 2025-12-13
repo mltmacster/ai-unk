@@ -1,0 +1,28 @@
+{
+  "query": "SHOW TABLES;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 29ZGM953urbqTd7.818210db73e6 --database 3RxWhdfWtLJu9BchbqVjxT --execute SHOW TABLES;",
+  "rows": [
+    {
+      "Tables_in_3RxWhdfWtLJu9BchbqVjxT": "__drizzle_migrations"
+    },
+    {
+      "Tables_in_3RxWhdfWtLJu9BchbqVjxT": "aiProviderSettings"
+    },
+    {
+      "Tables_in_3RxWhdfWtLJu9BchbqVjxT": "auditLog"
+    },
+    {
+      "Tables_in_3RxWhdfWtLJu9BchbqVjxT": "conversations"
+    },
+    {
+      "Tables_in_3RxWhdfWtLJu9BchbqVjxT": "messages"
+    },
+    {
+      "Tables_in_3RxWhdfWtLJu9BchbqVjxT": "users"
+    }
+  ],
+  "messages": [],
+  "stdout": "Tables_in_3RxWhdfWtLJu9BchbqVjxT\n__drizzle_migrations\naiProviderSettings\nauditLog\nconversations\nmessages\nusers\n",
+  "stderr": "",
+  "execution_time_ms": 98
+}
