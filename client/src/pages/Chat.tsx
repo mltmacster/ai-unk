@@ -1,5 +1,6 @@
 import { useAuth } from "@/_core/hooks/useAuth";
 import { trpc } from "@/lib/trpc";
+import { getLoginUrl } from "@/const";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -170,7 +171,7 @@ export default function Chat() {
           <p className="text-xl text-gray-300">Your Digital Mentor for Tech Mastery</p>
           <Button
             size="lg"
-            onClick={() => setLocation("/login")}
+            onClick={() => window.location.href = getLoginUrl()}
             className="mt-4"
           >
             Sign In to Get Started
